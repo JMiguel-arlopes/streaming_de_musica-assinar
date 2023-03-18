@@ -1,0 +1,46 @@
+body {
+background-color: lightslategray;
+
+}
+
+.container {
+    height: 75vh;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+}
+
+.cabecalho {
+    background-image: url(../img/thh.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.box__container {
+    color: aliceblue;
+    text-align: center;
+}
+
+.titulo-principal {
+    font-weight: bold;
+    font-size: 48px;
+    margin: 2em 0;
+}
+
+.frase-padrao {
+    margin: 0 30px 0.6em 30px;
+    font-size: 18px;
+}
+
+.botao-header {
+    height: 2.5em;
+    width: 85%;
+    border-radius: 10px;
+    margin: 0.5em;
+}
+
+.mini-frase {
+    display: block;
+    font-size: 12px;
+}
