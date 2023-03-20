@@ -250,6 +250,26 @@ footer {
         height: 100%;
         justify-content: center;
     }
+    
+    .titulo-secundario {
+         font-size: 32px;
+    }
+
+    .transition__2 {
+        height: 10vh;
+    }
+
+    .container__secundario {
+        padding: 0;
+    }
+
+    .container__secundario .container__conteudo{
+        flex-direction: column-reverse;
+    }
+
+    .image_2 {
+        margin-bottom: 1em;
+    }
 
 
     .image__lista {
@@ -259,7 +279,7 @@ footer {
     }
 
     .frase-lista {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .lista__dispositivos {
@@ -275,14 +295,18 @@ footer {
         margin: 0.5em auto;
     }
 
+    .dispositivos .titulo-secundario {
+        box-sizing: border-box;
+        padding: 0 1em;
+        font-size: 18px;
+    }
+
     .frase-padrao, .copyright {
         box-sizing: border-box;
         padding: 0 1.5em;
+        font-size: 12px;
     }
 
-    /* .container__image {
-        margin: 0 auto;
-    } */
 
     footer{
         align-items: center;
