@@ -163,7 +163,7 @@ font-family: 'Sono', sans-serif;
 }
 
 .item__lista{
-    margin: 0 3em;
+    /* margin: 0 3em; */
     text-align: center;
 }
 
@@ -221,4 +221,49 @@ footer {
 .logo__footer {
     width: 130px;
     margin-bottom: 5px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    /* .container__conteudo, .cabecalho {
+        display: block;
+        width: auto;
+    } */
+    
+
+    .conteudo-secundario {
+        margin: 0;
+    }
+    .cabecalho, .container, .transition, .transition__2, footer, section, .box__container, .container__conteudo {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+
+    .container__image {
+        margin: 0;
+        max-width: 90%;
+        height: auto;
+        justify-content: center;
+    }
+
+
+    .image__lista, .frase-lista {
+        margin: 0;
+        max-width: 20%;
+        height: auto;
+        font-size: 12px;
+        
+    }
+
+    .lista__dispositivos {
+        justify-content: center;
+    }
+
+    .item__lista {
+        max-width: 30%;
+    }
 }
