@@ -325,4 +325,8 @@ footer {
         padding: 1.2rem 0;
     }
 
+    .logo__footer {
+        max-width: 25%;
+    }
+
 }
