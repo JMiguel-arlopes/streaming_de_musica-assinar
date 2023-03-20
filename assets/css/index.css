@@ -255,6 +255,10 @@ footer {
          font-size: 32px;
     }
 
+    .transition {
+        height: 20vh;
+    }
+
     .transition__2 {
         height: 10vh;
     }
@@ -279,9 +283,13 @@ footer {
     }
 
     .frase-lista {
-        font-size: 16px;
+        font-size: 13px;
     }
-
+    
+    .dispositivos {
+        padding-top: 0;
+        padding-bottom: 2.5rem;
+    }
     .lista__dispositivos {
         justify-content: space-around;
     }
@@ -304,12 +312,17 @@ footer {
     .frase-padrao, .copyright {
         box-sizing: border-box;
         padding: 0 1.5em;
-        font-size: 12px;
+        font-size: 16px;
+    }
+
+    .copyright {
+        font-size: 8px;
     }
 
 
     footer{
         align-items: center;
+        padding: 1.2rem 0;
     }
 
 }
