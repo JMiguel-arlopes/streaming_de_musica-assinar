@@ -1,46 +1,224 @@
 body {
-background-color: lightslategray;
-
+/* background-color: #4B0082; */
+background-color: #86064c;
+font-family: 'Sono', sans-serif;
 }
 
 .container {
-    height: 75vh;
+    padding: 4rem 0;
+}
+
+.container__conteudo {
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 50% 50%;
     align-items: center;
+    /* max-width: 90%;
+    margin: 0 auto;
+    justify-content: space-between; */
 }
 
 .cabecalho {
+    display: grid;
     background-image: url(../img/thh.jpg);
+    grid-template-columns: 30% 70%;
     background-size: cover;
     background-repeat: no-repeat;
+    text-align: center;
+    height: 75vh;
+    padding: 0;
+    align-items: center;
 }
 
+
+.logo {
+    width: 100px;
+    margin: 0 auto;
+    
+} 
 
 .box__container {
     color: aliceblue;
     text-align: center;
+    box-sizing: border-box;
+    padding: 0 30px 30px 30px;
 }
 
 .titulo-principal {
     font-weight: bold;
     font-size: 48px;
-    margin: 2em 0;
+    margin-bottom: 2em;
+    font-family: 'Cinzel', serif;
 }
 
 .frase-padrao {
-    margin: 0 30px 0.6em 30px;
+    margin-bottom: 0.8em;
     font-size: 18px;
+    line-height: 1.2em;
 }
 
 .botao-header {
+    font-weight: 600;
     height: 2.5em;
     width: 85%;
     border-radius: 10px;
     margin: 0.5em;
+    transition: 450ms;
+}
+
+.botao-header:hover {
+    transform: scale(1.08);
+    border: 1.5px solid blue;
+    color: darkblue;
+    margin-bottom: 0.6em;
+    background-color: #ebebeb;
+}
+
+.link-header {
+    text-decoration: none;
+    font-size: 10px;
+    color: aquamarine;
+    transition: 450ms;
+}
+
+.link-header:hover {
+    text-decoration: underline;
+    font-size: 10.4px;
+    color: aqua;
+}
+
+.link-header:active {
+    color: #a82dff;
 }
 
 .mini-frase {
     display: block;
-    font-size: 12px;
+    font-size: 10px;
+}
+
+.transition {
+    height: 25vh;
+    /* background: linear-gradient(black, #4B0082); */
+    background: linear-gradient(black, #86064c);
+}
+
+.transition__2 {
+    height: 20vh;
+    background: linear-gradient(#86064c, #4B0082);
+}
+
+.container__secundario {
+    background: linear-gradient(#4B0082 60%, #49027b);
+    /* background-color: #49027b; */
+    /* background-color: #7b0546; */
+    /* #500188 */
+}
+
+.container__terciario {
+    background: linear-gradient(#49027b, #420171);
+}
+
+.conteudo-secundario {
+    margin: 0 6em;
+}
+
+.titulo-secundario {
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+
+.container__image {
+    margin: 0 15em;
+    height: 350px;
+    
+}
+
+.image_1 {
+    background-image: url(../img/Music-notes.png.crdownload);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.image_2 {
+    margin: 0 3.5em;
+
+}
+.image_3 {
+    margin: 0 8em;
+    /* display: inline; */
+    /* background-image: url(../img/piano.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom; */
+}
+
+.lista__dispositivos {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em 0;
+}
+
+.item__lista{
+    margin: 0 3em;
+    text-align: center;
+}
+
+
+.image__lista {
+    height: 200px;
+    margin-bottom: 1em;
+}
+
+.frase-lista {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.dispositivos {
+    background-color: #420171;
+}
+
+footer {
+    background-image: url(../img/bg.jpg);
+    text-align: center;
+    padding-top: 3.5rem;
+    padding-bottom: 1.2rem;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 10px;
+    color: aquamarine;
+    transition: 450ms;
+    margin-top: 0.5em;
+}
+
+.link:hover {
+    color: aqua;
+    font-size: 11px;
+}
+
+.link:active {
+    color: #a82dff;
+}
+
+.contato {
+    color: lightgray;
+    font-size: 8px;
+    margin-top: 2em;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin-top: 1.5em;
+}
+
+.logo__footer {
+    width: 130px;
+    margin-bottom: 5px;
 }
