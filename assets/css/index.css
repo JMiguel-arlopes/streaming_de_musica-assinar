@@ -1,11 +1,12 @@
 body {
 /* background-color: #4B0082; */
-background-color: #86064c;
+/* background-color: #86064c; */
 font-family: 'Sono', sans-serif;
 }
 
 .container {
     padding: 4rem 0;
+    background-color: #86064c;
 }
 
 .container__conteudo {
@@ -19,7 +20,7 @@ font-family: 'Sono', sans-serif;
 
 .cabecalho {
     display: grid;
-    background-image: url(../img/thh.jpg);
+    background: url(../img/thh.jpg);
     grid-template-columns: 30% 70%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -28,6 +29,7 @@ font-family: 'Sono', sans-serif;
     padding: 0;
     align-items: center;
 }
+
 
 
 .logo {
@@ -207,6 +209,18 @@ footer {
     color: #a82dff;
 }
 
+
+.cabecalho__contato {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background: linear-gradient(30deg,black, rgb(1, 1, 102), #66043a, black);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* text-align: center; */
+    height: 55vh;
+    padding: 0;
+}
+
 .contato {
     color: lightgray;
     font-size: 8px;
@@ -223,6 +237,114 @@ footer {
     width: 130px;
     margin-bottom: 5px;
 }
+
+.pag {
+    /* background-image: url(../img/piano_cut.jpg); */
+    background-size: 40%;
+}
+.contatos {
+    padding: 4rem 0 3rem 0;
+    width: 940px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+
+.label__padrao  {
+    display: block;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+} 
+
+.input__padrao {
+    display: block;
+    margin-bottom: 0.7em;
+    width: 50%;
+    padding: 0.5em 0.3em;
+}
+
+.frase-contato {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0.8em 0;
+}
+
+.turnos {
+    font-weight: 600;
+    display: block;
+    width: 25%;
+    text-align: center;
+    margin: 0 10em;
+    background-color: rgb(230, 250, 244);
+}
+
+.checkbox {
+    display: block;
+    font-size: 14px;
+    margin: 1.5em 0;
+}
+
+.input__botao {
+    display: block;
+    margin: 1.1rem auto 0 auto;
+    background: linear-gradient(30deg,black, rgb(1, 1, 102), #66043a, black);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 40%;
+    padding: 0.5rem;
+    transition: 450ms;
+}
+
+.input__botao:hover {
+    background: linear-gradient(30deg, rgb(1, 1, 102), #66043a);
+    transform: scale(1.1);
+    color: lightgray;
+    border: black solid 2.5px;
+}
+
+.container_grid {
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.link-header_contato {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    transition: 450ms;
+}
+
+.link-header_contato:hover {
+    color: lightgray;
+    font-size: 16.3px;
+    text-decoration: underline;
+
+}
+
+.container_grid-2 {
+    box-sizing: border-box;
+    padding: 3em;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 768px) {
