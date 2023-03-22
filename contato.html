@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allerta&family=Sono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="shortcut icon" href="assets/img/logo_RM-remove_black.png">
+    <script src="https://kit.fontawesome.com/bd92ca8629.js" crossorigin="anonymous"></script>
+    <title>Contato - RéquieMusic</title>
+</head>
+<body>
+    <header class="container cabecalho__contato">
+        <div class="container_grid">
+            <a href="index.html" class="link-header_contato">
+                <i class="fa-solid fa-arrow-left icon"></i>Retorne à Página Principal
+            </a>
+        </div>
+        <div class=container_grid-2>
+            <img src="assets/img/logo_RM-remove_2.png" alt="logo" class="logo">
+            <div >
+                <h1 class="titulo-principal">RéquieMusic</h1>
+                <p class="frase-padrao">Dúvidas, ajuda, elogios ou reclamações?<br>Aqui é o lugar!</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="pag">
+        <div class="contatos">
+            <form action="">
+                <fieldset>
+                    <label for="nome" class="label__padrao">Nome e Sobrenome</label>
+                    <input type="text" id="nome" class="input__padrao" required placeholder="João Miguel Araujo Lopes">
+
+                    <label for="email" class="label__padrao">E-mail</label>
+                    <input type="email" id="email" class="input__padrao" required placeholder="seuemail@dominio.com">
+    
+                    <label for="telefone" class="label__padrao">Telefone</label>
+                    <input type="tel" id="telefone" class="input__padrao" required placeholder="(XX) XXXXX-XXXX">
+
+                    <label for="mensagem" class="label__padrao">Nos envie sua mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="2" class="input__padrao" requuired placeholder="Adorei as Playlists do site.."></textarea>
+                </fieldset>
+
+                <fieldset>
+                    <p class="frase-contato">Qual meio de contato de sua preferência?</p>
+                    <label for="input-email" class="label__padrao"><input type="radio" name="contato" value="email" id="input-email">E-mail</label>
+                    <label for="input-ligacao" class="label__padrao"><input type="radio" name="contato" value="ligacao" id="input-ligacao">Ligação</label>
+                    <label for="input-whatsapp" class="label__padrao"><input type="radio" name="contato" value="whatsapp" id="input-whatsapp">WhatsApp</label>
+                </fieldset>
+            
+                <fieldset>
+                    <p class="frase-contato">Qual horário horário você prefere ser atendido?</p>
+                    <select name="turnos" id="turnos" class="turnos">
+                        <option value="manha">manhã</option>
+                        <option value="tarde">tarde</option>
+                        <option value="noite">noite</option>
+                    </select>
+
+                    <label for="checkbox" class="checkbox"><input type="checkbox" id="checkbox">Deseja receber nossas novidades por WhatsApp?</label>
+                </fieldset>
+
+                
+                <input type="submit" class="input__botao">
+            </form>
+        </div>
+    
+    </main>
+
+    <footer>
+        <img src="assets/img/logo_RM-remove_2.png" alt="logo RéquiemMusic" class="logo__footer">
+        <p class="contato">*clique-me caso queira voltar a </p><a href="index.html" class="link">página principal :)</a>
+        <p class="copyright">&copy; 2023 RéquieMusic, Músicas e Audio. Todos os direitos reservados. Serviço pago. Conteúdo sujeito a disponibilidade.</p>
+        <p class="copyright">RéquieMusic é um serviço pago, baseado a cadastros e sujeito a termos e condições. RéquieMusic é comercializado por Aovs Sistemas de Informática S.A.</p>
+    </footer>
+</body>
+</html>
