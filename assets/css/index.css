@@ -38,6 +38,141 @@ font-family: 'Sono', sans-serif;
     
 } 
 
+.container__pacotes {
+    position: fixed;
+    top: 10%;
+    left: 12.5%;
+    z-index: 10;
+    
+}
+
+.planos {
+    box-sizing: border-box;
+    padding: 1rem;
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 80vh;
+    width: 75vw;
+    background-color: black;
+    margin: 0 auto;
+    column-gap: 1rem;
+    background: linear-gradient(red, orange, yellow, green, blue, rgb(248, 68, 248));
+    border-radius: 3px;
+}
+
+.centralizar {
+    text-align: center;
+}
+
+.conteudo__pacote {
+    border: solid black 5px;
+    box-sizing: border-box;
+    padding: 6px;
+    position: relative;
+    
+}
+
+.pacote-1 {
+    /* background: linear-gradient(darkorange,rgb(255, 148, 18)); */
+    background: url(../img/fosco_blue.avif);
+    color: black;
+    border: solid black 4px;
+}
+
+.pacote-2 {
+    /* background: linear-gradient(to top right,#420171, #9500ff); */
+    background-image: url(../img/bg.jpg);
+    border: solid black 4px;
+}
+
+.pacote-3 {
+    /* background: linear-gradient(black, black); */
+    
+    background: url(../img/fosco_red.jpg);
+    border: solid black 5px;
+}
+
+.star {
+    color: gold;
+    font-size: 18px;
+}
+
+.play {
+    color: rgba(255, 255, 255, 0.838);
+}
+    
+
+
+
+.titulo_pacote {
+    font-size: 24px;
+    margin-bottom: 1em;
+    font-weight: 900;
+}
+
+.frase_pacote {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 1em 0;
+    border-bottom: solid white 2px;
+    line-height: 1em;
+    color:whitesmoke;
+}
+
+.botao_pacote {
+    display: block;
+    position: absolute;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px white solid;
+    border-radius: 5px;
+    padding: 5px 0;
+    /* bottom: 3rem;
+    left: 110px; */
+    width: 160px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 30px;
+    /* background: linear-gradient(45deg, rgb(0, 0, 0), rgb(65, 65, 65), black); */
+    /* background-image: linear-gradient(45deg, darkblue, black, darkred); */
+    /* background: linear-gradient(45deg, rgb(0, 0, 0), rgb(0, 134, 134), black); */
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+    transition: 350ms;
+}
+
+.botao_1:hover {
+    transform: scale(1.05);
+    /* background: linear-gradient(45deg, blue,black,blue); */
+    background-color: rgb(5, 5, 5);
+    cursor: pointer;
+    opacity: 1;
+    border: 2.1px solid goldenrod;
+    color: goldenrod;
+}
+
+.botao_2:hover {
+    transform: scale(1.05);
+    background-color: rgb(5, 5, 5);
+    cursor: pointer;
+    opacity: 1;
+    border: 2.1px solid goldenrod;
+    color: goldenrod;
+}
+
+.botao_3:hover {
+    transform: scale(1.07);
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    opacity: 1;
+    border: 2.3px solid gold;
+    color: gold;
+}
+
 .box__container {
     color: aliceblue;
     text-align: center;
