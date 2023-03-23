@@ -70,13 +70,12 @@ font-family: 'Sono', sans-serif;
     box-sizing: border-box;
     padding: 6px;
     position: relative;
-    
 }
 
 .pacote-1 {
     /* background: linear-gradient(darkorange,rgb(255, 148, 18)); */
     background: url(../img/fosco_blue.avif);
-    color: black;
+    /* color: black; */
     border: solid black 4px;
 }
 
@@ -91,6 +90,7 @@ font-family: 'Sono', sans-serif;
     
     background: url(../img/fosco_red.jpg);
     border: solid black 5px;
+    
 }
 
 .star {
@@ -107,8 +107,17 @@ font-family: 'Sono', sans-serif;
 
 .titulo_pacote {
     font-size: 24px;
-    margin-bottom: 1em;
+    margin-bottom: 0.2em;
     font-weight: 900;
+    text-transform: uppercase;
+    
+}
+
+.preco_pacote {
+    font-size: 18px;
+    margin-bottom: 1.5em;
+    /* text-decoration: underline; */
+    color: gold;
 }
 
 .frase_pacote {
@@ -116,8 +125,13 @@ font-family: 'Sono', sans-serif;
     font-weight: bold;
     padding: 1em 0;
     border-bottom: solid white 2px;
-    line-height: 1em;
+    line-height: 1.2em;
     color:whitesmoke;
+}
+
+.destaque {
+    font-size: 17px;
+    color: rgb(0, 255, 0);
 }
 
 .botao_pacote {
@@ -128,8 +142,6 @@ font-family: 'Sono', sans-serif;
     border: 2px white solid;
     border-radius: 5px;
     padding: 5px 0;
-    /* bottom: 3rem;
-    left: 110px; */
     width: 160px;
     left: 0;
     right: 0;
@@ -141,7 +153,7 @@ font-family: 'Sono', sans-serif;
     /* background: linear-gradient(45deg, rgb(0, 0, 0), rgb(0, 134, 134), black); */
     background-color: black;
     color: white;
-    opacity: 0.7;
+    opacity: 0.45;
     transition: 350ms;
 }
 
