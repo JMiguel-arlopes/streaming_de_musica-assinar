@@ -13,9 +13,6 @@ font-family: 'Sono', sans-serif;
     display: grid;
     grid-template-columns: 50% 50%;
     align-items: center;
-    /* max-width: 90%;
-    margin: 0 auto;
-    justify-content: space-between; */
 }
 
 .cabecalho {
@@ -39,11 +36,11 @@ font-family: 'Sono', sans-serif;
 } 
 
 .container__pacotes {
+    display: none;
     position: fixed;
     top: 10%;
     left: 12.5%;
     z-index: 10;
-    
 }
 
 .planos {
@@ -58,7 +55,20 @@ font-family: 'Sono', sans-serif;
     margin: 0 auto;
     column-gap: 1rem;
     background: linear-gradient(red, orange, yellow, green, blue, rgb(248, 68, 248));
-    border-radius: 3px;
+    border-radius: 2px;
+    position: relative;
+}
+
+.exit {
+    position: absolute;
+    top: -10px;
+    right: -8px;
+    font-size: 1.7em;
+    color: rgba(29, 26, 26, 0.511);
+}
+
+.exit:hover {
+    color: rgb(28, 28, 28);
 }
 
 .centralizar {
@@ -70,24 +80,20 @@ font-family: 'Sono', sans-serif;
     box-sizing: border-box;
     padding: 6px;
     position: relative;
+    border-radius: 4px;
 }
 
 .pacote-1 {
-    /* background: linear-gradient(darkorange,rgb(255, 148, 18)); */
     background: url(../img/fosco_blue.avif);
-    /* color: black; */
     border: solid black 4px;
 }
 
 .pacote-2 {
-    /* background: linear-gradient(to top right,#420171, #9500ff); */
     background-image: url(../img/bg.jpg);
     border: solid black 4px;
 }
 
 .pacote-3 {
-    /* background: linear-gradient(black, black); */
-    
     background: url(../img/fosco_red.jpg);
     border: solid black 5px;
     
@@ -101,9 +107,6 @@ font-family: 'Sono', sans-serif;
 .play {
     color: rgba(255, 255, 255, 0.838);
 }
-    
-
-
 
 .titulo_pacote {
     font-size: 24px;
@@ -184,6 +187,11 @@ font-family: 'Sono', sans-serif;
     border: 2.3px solid gold;
     color: gold;
 }
+
+.hide {
+    display: block;
+}
+
 
 .box__container {
     color: aliceblue;
